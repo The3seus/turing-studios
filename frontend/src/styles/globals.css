@@ -1,0 +1,71 @@
+/* styles/globals.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    background: #000; /* Set the entire background to black */
+    color: #fff; /* Set the text color to white */
+  }
+  
+  .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .site-layout {
+    background: #000 !important; /* Ensure layout background is black */
+  }
+  
+  .site-layout .site-layout-background {
+    background: #000 !important; /* Ensure the content background is black */
+    border-radius: 8px;
+    text-align: center;
+    padding: 24px;
+  }
+  
+  .ant-breadcrumb {
+    margin-bottom: 16px;
+  }
+  
+  .ant-breadcrumb a {
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .ant-layout-footer {
+    background: #000 !important; /* Ensure the footer background is black */
+    color: rgba(255, 255, 255, 0.65);
+    text-align: center;
+  }
+  
+  .ant-input,
+  .ant-select-selector,
+  .ant-select-dropdown {
+    color: #fff !important;
+    background-color: #333 !important;
+    border: 1px solid #555 !important;
+    border-radius: 4px !important;
+  }
+  
+  .ant-input::placeholder,
+  .ant-select-selection-placeholder {
+    color: rgba(255, 255, 255, 0.65) !important;
+  }
+  
+  .ant-select-dropdown-menu-item {
+    background-color: #333 !important;
+    color: #fff !important;
+  }
+  
+  .ant-select-dropdown-menu-item:hover {
+    background-color: #444 !important;
+  }
+  
+  .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+  
+  h1 {
+    color: #fff;
+  }
+  
